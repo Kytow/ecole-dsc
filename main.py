@@ -89,4 +89,4 @@ async def on_message(cxt, loginuser, passworduser):
     driver.close()
 
 
-bot.run("OTM4ODcxODYyMzA0MzI1Njky.Yfwmjw.gi80wMLDDNHlVVRQonBp5Ghht5o")
+bot.run("TOKEN HERE")
