@@ -1,6 +1,5 @@
 from discord.ext import commands
 from selenium import webdriver
-import os
 import time
 
 bot = commands.Bot(command_prefix="e!")
