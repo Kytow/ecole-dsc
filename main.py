@@ -3,11 +3,12 @@ from selenium import webdriver
 import time
 
 bot = commands.Bot(command_prefix="e!")
+bot.remove_command('help')
 
 number = 0
 
 
-@bot.command(name="doc")
+@bot.command(name="help")
 async def on_message(cxt):
     await cxt.send("""
     ***Commandes du bot @EcoleDsc#6148***
